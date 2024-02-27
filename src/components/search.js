@@ -96,7 +96,7 @@ export default class Search extends Component {
           onSubmit={this.handleSubmit}
           className={`${searchStyle.searchForm} ${
             toggleOpen === null
-              ? ""
+              ? searchStyle.searchInputClose
               : toggleOpen
               ? searchStyle.searchInputOpen
               : searchStyle.searchInputClose
